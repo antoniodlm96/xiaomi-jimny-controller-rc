@@ -3,7 +3,7 @@ import keyboard
 from bleak import BleakClient
 
 # BLE device address and characteristic UUID
-ADDRESS = "9B947988-8931-F761-091F-026912A95ECE" 
+ADDRESS = "9B947988-8931-F761-091F-026912A95ECE" #put your address here
 UUID_WRITE = "4fbbffe3-c59c-478d-bb99-d6e06367e344"
 
 # Initial values
