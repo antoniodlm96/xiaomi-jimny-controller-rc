@@ -63,3 +63,15 @@ python3 jimny_controller.py
 ```
 sudo python3 jimny_controller.py
 ```
+
+---
+
+## 🔍 Discovering Your Car's Bluetooth Address
+
+Before running the controller, you need to know the **Bluetooth MAC address** of your Xiaomi Jimny car.
+
+You can use the provided `scan.py` script to discover nearby BLE devices:
+
+```bash
+python3 scan.py
+```
